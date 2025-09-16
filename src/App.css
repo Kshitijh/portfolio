@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #161b22, #0d1117);
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero select {
+  background-color: #161b22;
+  color: white;
+  padding: 15px 15px;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.btn-resume {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 15px 15px;
+  background-color: #238636;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn-resume:hover {
+  background-color: #2ea043;
+}
+
+section {
+  margin-top: 40px;
+}
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.skills-list li {
+  background-color: #21262d;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+}
+
+/* Projects */
+.project-card {
+  background-color: #161b22;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #30363d;
+}
+.project-card h3 {
+  color: #ffa657;
+}
+
+/* Experience List */
+.experience-list {
+  padding-left: 20px;
+}
+.experience-list li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.contact {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #161b22;
+  border-radius: 10px;
+  text-align: center;
+}
+.contact p {
+  margin: 5px 0;
+}
+
+.hero.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.profile-image-container {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #238636; /* Optional: accent border */
+}
