@@ -17,7 +17,7 @@ const Hero = ({ roles, selectedRole, onRoleChange }) => {
             </option>
           ))}
         </select>
-        <a href="/resume.pdf" className="btn-resume" download>
+        <a href="/Kshitij's_resume.pdf" className="btn-resume" download>
           Download Resume
         </a>
       </div>
