@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
@@ -60,7 +64,7 @@ html {
   --text: #0f1724;
   --muted: #52607a;
   --accent: #0066ff;
-  --card: #f6f9ff;
+  --card: #fffff;
   --glass: rgba(255, 255, 255, 0.6);
   --shadow: 0 8px 24px rgba(15, 23, 36, 0.06);
   --radius: 16px;
@@ -75,7 +79,7 @@ html {
   --text: #e6eef8;
   --muted: #9fb2c9;
   --accent: #60a5fa;
-  --card: #082235;
+  --card: #071128;
   --glass: rgba(6, 18, 32, 0.5);
   --shadow: 0 10px 30px rgba(2, 6, 23, 0.7);
 }
@@ -107,17 +111,20 @@ body {
 
 /* Navbar */
 .nav {
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
   z-index: 40;
   backdrop-filter: blur(6px);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), transparent);
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
-[data-theme="dark"] .nav {
+[data-theme="dark"]
+.nav {
   background: linear-gradient(180deg, rgba(6, 18, 32, 0.6), transparent);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
+
 .nav-inner {
   display: flex;
   align-items: center;
@@ -128,6 +135,7 @@ body {
   margin: 0 auto;
   padding: 0 var(--container-pad);
 }
+
 .brand {
   display: flex;
   gap: 12px;
@@ -135,6 +143,7 @@ body {
   text-decoration: none;
   color: var(--text);
 }
+
 .logo {
   width: 44px;
   height: 44px;
@@ -151,14 +160,16 @@ body {
 /* nav links */
 .nav-links {
   display: flex;
-  gap: 18px;
+  gap: 15px;
   align-items: center;
 }
+
 .nav-links a {
   color: var(--muted);
   text-decoration: none;
   font-weight: 600;
 }
+
 .nav-actions {
   display: flex;
   gap: 12px;
@@ -167,6 +178,7 @@ body {
 
 /* Hero */
 .hero {
+  margin-top: 10;
   padding: 72px 0;
   display: flex;
   align-items: center;
@@ -254,6 +266,7 @@ body {
 /* Sections */
 .section {
   padding: 56px 0;
+  padding-top: 7%;
 }
 .section .section-header {
   display: flex;

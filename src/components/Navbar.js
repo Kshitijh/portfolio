@@ -7,16 +7,17 @@ export default function Navbar({ theme, onToggleTheme }) {
         <a className="brand" href="#home" aria-label="home">
           <div className="logo">KH</div>
           <div>
-            <div style={{ fontWeight: 700 }}>Kshitij H.</div>
+            <div style={{ fontWeight: 700 }}>Kshitij Hupare</div>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>Full-Stack Developer</div>
           </div>
         </a>
 
         <div className="nav-links" aria-hidden>
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </div>
 
