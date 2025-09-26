@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile-placeholder.jpg"; // optional - add your image
+import profile from "../assets/ProfilePic.png"; // optional - add your image
 
 export default function Hero() {
   return (
