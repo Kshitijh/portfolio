@@ -231,7 +231,7 @@ body {
 }
 .btn-ghost {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: 5px solid rgba(0, 0, 0, 0.06);
   color: var(--text);
 }
 [data-theme="dark"] .btn-ghost {
@@ -292,6 +292,12 @@ body {
   border-radius: 12px;
   box-shadow: var(--shadow);
 }
+
+.custom-card {
+  width: fit-content;
+  height: fit-content;
+}
+
 .card h3 {
   margin: 0 0 8px 0;
 }

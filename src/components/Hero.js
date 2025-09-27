@@ -9,8 +9,8 @@ export default function Hero() {
           <div className="hero-card">
             <h1 className="hero-title">Hi — I'm <span style={{color:"var(--accent)"}}>Kshitij</span></h1>
             <p className="hero-sub">
-              Recent Computer Science graduate. Passionate about building
-              full-stack applications using React, Node/Python and designing delightful UX.
+              Recent Computer Science graduate (2024). Passionate about building
+              full-stack applications using React, interested in developing 3 tier architecture.
             </p>
 
             <div className="cta-row">

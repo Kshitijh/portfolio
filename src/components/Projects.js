@@ -4,19 +4,19 @@ const projects = [
   {
     name: "Portfolio Website",
     desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
-    tech: ["React", "CSS"],
+    tech: ["React.js", "AWS S3","Node.js"],
     link: "#"
   },
   {
-    name: "Inventory GUI",
-    desc: "Desktop GUI built with PyQt for warehouse management; integrated with SQLite and reporting features.",
-    tech: ["Python", "PyQt5", "SQLite"],
+    name: "Digital shopping trolley",
+    desc: "Created a digital shopping cart/trolley to reduce the waiting time at the billing desk.",
+    tech: ["Processors", "sensors", "MongoDB", "AWS"],
     link: "#"
   },
   {
-    name: "E-commerce Backend",
-    desc: "RESTful API for an online store with product CRUD, authentication and order processing.",
-    tech: ["Node.js", "Express", "MongoDB"],
+    name: "Textile Web-App",
+    desc: "Developed a web application to automate inventory management, marketing, and sales.",
+    tech: ["AWS EC2", "MongoDB", "React.js"],
     link: "#"
   }
 ];
@@ -32,11 +32,11 @@ export default function Projects() {
 
         <div className="card-grid">
           {projects.map((p, i) => (
-            <div key={i} className="card">
+            <div key={i} className="card custom-card">
               <h3>{p.name}</h3>
               <div className="small">{p.desc}</div>
               <div style={{marginTop:12}}>
-                {p.tech.map((t, idx) => <span key={idx} className="skill" style={{marginRight:6}}>{t}</span>)}
+                {p.tech.map((t, idx) => <span key={idx} className="skill custom-card" style={{marginRight:6}}>{t}</span>)}
               </div>
               <div className="project-links" style={{marginTop:12}}>
                 <a href={p.link} target="_blank" rel="noreferrer">View</a>

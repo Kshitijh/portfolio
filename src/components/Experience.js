@@ -2,16 +2,22 @@ import React from "react";
 
 const experiences = [
   {
-    company: "Cybernetik Technologies (Python Developer)",
+    company: "Cybernetik Technologies (Python Dev.)",
     role: "Frontend / GUI Development",
     duration: "Dec 2024 - Present",
-    desc: "Developed Firmwares for BMS (Battery management Systems) via Python and GUIs using Qt Designer. Built dashboards and automated workflows for multiple clients including Battrixx, Livguard and Hero Motor Corp.",
+    desc: "Worked on development of firmware for Battery Management System (BMS), Also built 6+ industrial live monitoring dashboards, developed backend with real-time control."
   },
   {
     company: "Freelance",
     role: "Full-Stack Developer",
     duration: "2024 - Present",
     desc: "Built small business websites and integrated payment & reporting systems.",
+  },
+  {
+    company: "Vijesha IT Services LLP",
+    role: "AI Engineer",
+    duration: "2024",
+    desc: "Implemented data-frame handling models & Developed a recommendation system using collaborative filtering.",
   }
 ];
 
