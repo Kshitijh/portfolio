@@ -309,7 +309,7 @@ body {
   font-size: 0.875rem;
   background: var(--accent, #555);
   color: #fff;
-  white-space: nowrap;       /* Keeps text on one line */
+  white-space: nowrap; /* Keeps text on one line */
   line-height: 1.2;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
