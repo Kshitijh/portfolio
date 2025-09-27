@@ -36,7 +36,7 @@ I am contacting you regarding: ${form.message}`;
     <section className="section" id="contact">
       <div className="container">
         <div className="section-header">
-          <h2>Contact</h2>
+          <h2>Contact Via WhatsApp</h2>
           <div className="small">Let's build something together</div>
         </div>
 
@@ -114,14 +114,14 @@ I am contacting you regarding: ${form.message}`;
               Social
             </div>
             <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/Kshitijh" aria-label="GitHub">
                 GitHub
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/kshitij-hupare-b11780221/" aria-label="LinkedIn">
                 LinkedIn
               </a>
-              <a href="#" aria-label="Twitter">
-                Twitter
+              <a href="https://www.instagram.com/kshitijhupare?igsh=Y3dieTl3b2k3Mmd6" aria-label="Instagram">
+                Instagram
               </a>
             </div>
 
