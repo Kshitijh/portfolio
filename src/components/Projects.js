@@ -35,10 +35,12 @@ export default function Projects() {
             <div key={i} className="card custom-card">
               <h3>{p.name}</h3>
               <div className="small">{p.desc}</div>
-              <div style={{marginTop:12}}>
-                {p.tech.map((t, idx) => <span key={idx} className="skill custom-card" style={{marginRight:6}}>{t}</span>)}
+              <div style={{ marginTop: 12, display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                {p.tech.map((t, idx) => (
+                  <span key={idx} className="skill-chip">{t}</span>
+                ))}
               </div>
-              <div className="project-links" style={{marginTop:12}}>
+              <div className="project-links" style={{ marginTop: 12 }}>
                 <a href={p.link} target="_blank" rel="noreferrer">View</a>
                 <a href="#" target="_blank" rel="noreferrer">Code</a>
               </div>

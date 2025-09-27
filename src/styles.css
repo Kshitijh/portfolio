@@ -282,8 +282,8 @@ body {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
 }
 
 .card {
@@ -293,9 +293,25 @@ body {
   box-shadow: var(--shadow);
 }
 
+/* Project card */
 .custom-card {
-  width: fit-content;
-  height: fit-content;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--card-bg, #fff);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Skill chips adjust to content */
+.skill-chip {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  background: var(--accent, #555);
+  color: #fff;
+  white-space: nowrap;       /* Keeps text on one line */
+  line-height: 1.2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
