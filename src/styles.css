@@ -287,7 +287,6 @@ body {
 }
 
 .card {
-  background: var(--card);
   padding: 18px;
   border-radius: 12px;
   box-shadow: var(--shadow);
@@ -297,8 +296,6 @@ body {
 .custom-card {
   padding: 16px;
   border-radius: 12px;
-  background: var(--card-bg, #fff);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* Skill chips adjust to content */
