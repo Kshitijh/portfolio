@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -40,7 +41,9 @@ I am contacting you regarding: ${form.message}`;
           <div className="small">Let's build something together</div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 18 }}>
+        <div
+          style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 18 }}
+        >
           {/* Contact Form */}
           <div className="card">
             <form onSubmit={handleSubmit}>
@@ -54,7 +57,7 @@ I am contacting you regarding: ${form.message}`;
                   style={{
                     padding: 10,
                     borderRadius: 8,
-                    border: "1px solid rgba(0,0,0,0.06)"
+                    border: "1px solid rgba(0,0,0,0.06)",
                   }}
                 />
 
@@ -68,7 +71,7 @@ I am contacting you regarding: ${form.message}`;
                   style={{
                     padding: 10,
                     borderRadius: 8,
-                    border: "1px solid rgba(0,0,0,0.06)"
+                    border: "1px solid rgba(0,0,0,0.06)",
                   }}
                 />
 
@@ -82,7 +85,7 @@ I am contacting you regarding: ${form.message}`;
                   style={{
                     padding: 10,
                     borderRadius: 8,
-                    border: "1px solid rgba(0,0,0,0.06)"
+                    border: "1px solid rgba(0,0,0,0.06)",
                   }}
                 />
 
@@ -91,7 +94,9 @@ I am contacting you regarding: ${form.message}`;
                     Send message
                   </button>
                   {sent && (
-                    <div style={{ alignSelf: "center", color: "var(--accent)" }}>
+                    <div
+                      style={{ alignSelf: "center", color: "var(--accent)" }}
+                    >
                       Redirecting to WhatsApp...
                     </div>
                   )}
@@ -103,25 +108,55 @@ I am contacting you regarding: ${form.message}`;
           {/* Contact Info */}
           <aside className="card">
             <h3>Contact Info</h3>
-            <div className="small">Email</div>
+            <div className="small">Email & Phone</div>
             <div style={{ fontWeight: 700 }}>
               <a href="mailto:kshitijhupare07@gmail.com">
                 kshitijhupare07@gmail.com
               </a>
+              <br />
+              <a href="tel:9922008673">+91 99220 08673</a>
             </div>
 
             <div style={{ marginTop: 12 }} className="small">
               Social
             </div>
-            <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
-              <a href="https://github.com/Kshitijh" aria-label="GitHub">
-                GitHub
+            <div
+              style={{
+                display: "flex",
+                gap: 16,
+                marginTop: 8,
+                fontSize: 28, // size of icons
+                color: "var(--text-light)",
+              }}
+            >
+              <a
+                href="https://github.com/Kshitijh"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/kshitij-hupare-b11780221/" aria-label="LinkedIn">
-                LinkedIn
+
+              <a
+                href="https://www.linkedin.com/in/kshitij-hupare-b11780221/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/kshitijhupare?igsh=Y3dieTl3b2k3Mmd6" aria-label="Instagram">
-                Instagram
+
+              <a
+                href="https://www.instagram.com/kshitijhupare?igsh=Y3dieTl3b2k3Mmd6"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                <FaInstagram />
               </a>
             </div>
 

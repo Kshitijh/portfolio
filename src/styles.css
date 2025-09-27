@@ -119,8 +119,7 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), transparent);
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
-[data-theme="dark"]
-.nav {
+[data-theme="dark"] .nav {
   background: linear-gradient(180deg, rgba(6, 18, 32, 0.6), transparent);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
@@ -387,4 +386,13 @@ footer {
   .nav-links {
     display: none;
   }
+}
+
+aside a svg {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+aside a:hover svg {
+  transform: scale(1.2);
+  color: var(--accent); /* highlight color on hover */
 }
