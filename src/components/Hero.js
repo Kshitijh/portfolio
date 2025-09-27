@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="hero-card">
             <h1 className="hero-title">Hi — I'm <span style={{color:"var(--accent)"}}>Kshitij</span></h1>
             <p className="hero-sub">
-              Recent Computer Science graduate (CGPA 8.68). Passionate about building
+              Recent Computer Science graduate. Passionate about building
               full-stack applications using React, Node/Python and designing delightful UX.
             </p>
 
@@ -41,7 +41,7 @@ export default function Hero() {
             </div>
             <div className="card">
               <div className="small">Degree</div>
-              <div style={{fontWeight:700, marginTop:6}}>B.Tech in CS (2025)</div>
+              <div style={{fontWeight:700, marginTop:6}}>B.Tech in CS (2024)</div>
             </div>
           </div>
         </div>

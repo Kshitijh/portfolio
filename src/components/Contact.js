@@ -1,20 +1,35 @@
 import React, { useState } from "react";
 
 export default function Contact() {
-  const [form, setForm] = useState({name:"", email:"", message:""});
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
 
-  function handleChange(e){
-    setForm({...form, [e.target.name]: e.target.value});
+  function handleChange(e) {
+    setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  function handleSubmit(e){
+  function handleSubmit(e) {
     e.preventDefault();
-    // Placeholder: integrate email service or backend endpoint here.
-    console.log("Contact form:", form);
+
+    // Construct WhatsApp message
+    const text = `Hi Kshitij, I am ${form.name}. 
+This is my contact email: ${form.email}. 
+I am contacting you regarding: ${form.message}`;
+
+    // Encode message for URL
+    const encodedMsg = encodeURIComponent(text);
+
+    // Redirect to WhatsApp with the message
+    window.open(`https://wa.me/919922008673?text=${encodedMsg}`, "_blank");
+
+    // Show "sent" feedback
     setSent(true);
-    setTimeout(()=> setSent(false), 3000);
-    setForm({name:"", email:"", message:""});
+
+    // Reset the form
+    setForm({ name: "", email: "", message: "" });
+
+    // Hide the sent message after 3 seconds
+    setTimeout(() => setSent(false), 3000);
   }
 
   return (
@@ -25,42 +40,96 @@ export default function Contact() {
           <div className="small">Let's build something together</div>
         </div>
 
-        <div style={{display:"grid", gridTemplateColumns:"1fr 360px", gap:18}}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 18 }}>
+          {/* Contact Form */}
           <div className="card">
             <form onSubmit={handleSubmit}>
-              <div style={{display:"grid", gap:8}}>
+              <div style={{ display: "grid", gap: 8 }}>
                 <label className="small">Name</label>
-                <input name="name" required value={form.name} onChange={handleChange} style={{padding:10, borderRadius:8, border:"1px solid rgba(0,0,0,0.06)"}} />
+                <input
+                  name="name"
+                  required
+                  value={form.name}
+                  onChange={handleChange}
+                  style={{
+                    padding: 10,
+                    borderRadius: 8,
+                    border: "1px solid rgba(0,0,0,0.06)"
+                  }}
+                />
 
                 <label className="small">Email</label>
-                <input name="email" required value={form.email} onChange={handleChange} type="email" style={{padding:10, borderRadius:8, border:"1px solid rgba(0,0,0,0.06)"}} />
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  value={form.email}
+                  onChange={handleChange}
+                  style={{
+                    padding: 10,
+                    borderRadius: 8,
+                    border: "1px solid rgba(0,0,0,0.06)"
+                  }}
+                />
 
                 <label className="small">Message</label>
-                <textarea name="message" required value={form.message} onChange={handleChange} rows="6" style={{padding:10, borderRadius:8, border:"1px solid rgba(0,0,0,0.06)"}} />
+                <textarea
+                  name="message"
+                  rows="6"
+                  required
+                  value={form.message}
+                  onChange={handleChange}
+                  style={{
+                    padding: 10,
+                    borderRadius: 8,
+                    border: "1px solid rgba(0,0,0,0.06)"
+                  }}
+                />
 
-                <div style={{display:"flex", gap:8}}>
-                  <button className="btn btn-primary" type="submit">Send message</button>
-                  {sent && <div style={{alignSelf:"center", color:"var(--accent)"}}>Message sent (demo)</div>}
+                <div style={{ display: "flex", gap: 8 }}>
+                  <button className="btn btn-primary" type="submit">
+                    Send message
+                  </button>
+                  {sent && (
+                    <div style={{ alignSelf: "center", color: "var(--accent)" }}>
+                      Redirecting to WhatsApp...
+                    </div>
+                  )}
                 </div>
               </div>
             </form>
           </div>
 
+          {/* Contact Info */}
           <aside className="card">
             <h3>Contact Info</h3>
             <div className="small">Email</div>
-            <div style={{fontWeight:700}}><a href="mailto:kshitijhupare07@gmail.com">kshitijhupare07@gmail.com</a></div>
-
-            <div style={{marginTop:12}} className="small">Social</div>
-            <div style={{display:"flex", gap:8, marginTop:8}}>
-              <a href="#" aria-label="GitHub">GitHub</a>
-              <a href="#" aria-label="LinkedIn">LinkedIn</a>
-              <a href="#" aria-label="Twitter">Twitter</a>
+            <div style={{ fontWeight: 700 }}>
+              <a href="mailto:kshitijhupare07@gmail.com">
+                kshitijhupare07@gmail.com
+              </a>
             </div>
 
-            <div style={{marginTop:18}}>
+            <div style={{ marginTop: 12 }} className="small">
+              Social
+            </div>
+            <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
+              <a href="#" aria-label="GitHub">
+                GitHub
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                LinkedIn
+              </a>
+              <a href="#" aria-label="Twitter">
+                Twitter
+              </a>
+            </div>
+
+            <div style={{ marginTop: 18 }}>
               <h4>Download CV</h4>
-              <a className="btn btn-ghost" href="/resume.pdf" download>Download</a>
+              <a className="btn btn-ghost" href="/resume.pdf" download>
+                Download
+              </a>
             </div>
           </aside>
         </div>
