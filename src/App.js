@@ -9,12 +9,6 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-/*
-  I populated placeholders using info I know:
-  - Name: Kshitij
-  - Recent CS graduate, CGPA 8.68
-  Replace placeholders as needed.
-*/
 
 export default function App() {
   const [theme, setTheme] = useState(() => {
