@@ -1,7 +1,20 @@
 import React from "react";
 
 const skills = [
-  "React", "Node.js", "JavaScript", "Java", "IOT", "Cloud Technologies", "NoSQL","SQL","MySQL", "SSMS", "Python", "Python Libraries", "Git"];
+  "React",
+  "Node.js",
+  "JavaScript",
+  "Java",
+  "IOT",
+  "Cloud Technologies",
+  "NoSQL",
+  "SQL",
+  "MySQL",
+  "SSMS",
+  "Python",
+  "Python Libraries",
+  "Git",
+];
 
 export default function Skills() {
   return (
@@ -15,7 +28,9 @@ export default function Skills() {
         <div className="card">
           <div className="skills">
             {skills.map((s, i) => (
-              <div key={i} className="skill">{s}</div>
+              <div key={i} className="skill">
+                {s}
+              </div>
             ))}
           </div>
         </div>
