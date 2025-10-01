@@ -13,7 +13,7 @@ Utilities	Email | contact form | smooth scroll
 
 Folder structure.
 
-├── public/
+├── public/  
 │   |── favicon.ico/  
 |   |── index.html/  
 |   |── manifest.json/  
@@ -26,52 +26,52 @@ Folder structure.
 |   ├── Hero.js  
 |   ├── Navbar.js  
 |   ├── Projects.js  
-|   └── Skills.js     
+|   └── Skills.js  
 ├── README.md  
 ├── package.json  
-├── package-lock.json  
+├── package-lock.json    
 └── AWS-amplify  
+  
+🔍 Features & Highlights  
+  
+Responsive design — adapts to desktops, tablets, and mobile screens  
 
-🔍 Features & Highlights
+Project showcase — each project can have image(s), description, tech-stack list, and link to live site or repo  
 
-Responsive design — adapts to desktops, tablets, and mobile screens
+About / Skills section — highlight your background, tools, languages, experiences  
 
-Project showcase — each project can have image(s), description, tech-stack list, and link to live site or repo
+Contact form / links — visitors can send you messages or see your email / social links  
 
-About / Skills section — highlight your background, tools, languages, experiences
+Navigation & smooth scrolling — for a better UX  
 
-Contact form / links — visitors can send you messages or see your email / social links
+Animation / interactivity — hover effects, fade-ins, etc.  
 
-Navigation & smooth scrolling — for a better UX
+🖼️ Screenshots (examples)  
 
-Animation / interactivity — hover effects, fade-ins, etc.
+Home Page  
+<img width="1650" height="756" alt="Image" src="https://github.com/user-attachments/assets/79d3b8da-0a00-485b-9146-7142af0268f0" />  
 
-🖼️ Screenshots (examples)
+About Section  
+<img width="1623" height="547" alt="Image" src="https://github.com/user-attachments/assets/00c7e1b1-76b6-4c3e-8063-74198a8e9e17" />  
 
-Home Page
-<img width="1650" height="756" alt="Image" src="https://github.com/user-attachments/assets/79d3b8da-0a00-485b-9146-7142af0268f0" />
+Experience Section  
+<img width="1627" height="517" alt="Image" src="https://github.com/user-attachments/assets/49c776b4-4619-489d-a254-317f1b4d3fc3" />  
 
-About Section
-<img width="1623" height="547" alt="Image" src="https://github.com/user-attachments/assets/00c7e1b1-76b6-4c3e-8063-74198a8e9e17" />
+Projects Section  
+<img width="1622" height="488" alt="Image" src="https://github.com/user-attachments/assets/13939ea6-e3c6-49d2-bedc-ff2a82d05497" />  
 
-Experience Section
-<img width="1627" height="517" alt="Image" src="https://github.com/user-attachments/assets/49c776b4-4619-489d-a254-317f1b4d3fc3" />
+Skills Section  
+<img width="1650" height="323" alt="Image" src="https://github.com/user-attachments/assets/8f1cfd2d-b545-4ce0-91a1-87956672f36c" />  
 
-Projects Section
-<img width="1622" height="488" alt="Image" src="https://github.com/user-attachments/assets/13939ea6-e3c6-49d2-bedc-ff2a82d05497" />
+Education Section  
+<img width="1623" height="730" alt="Image" src="https://github.com/user-attachments/assets/63111ae7-aefc-4216-93ad-0ca385d026c3" />  
 
-Skills Section
-<img width="1650" height="323" alt="Image" src="https://github.com/user-attachments/assets/8f1cfd2d-b545-4ce0-91a1-87956672f36c" />
+Contact Section  
+<img width="1649" height="688" alt="Image" src="https://github.com/user-attachments/assets/6bd6d39e-3da5-449b-9982-90961edf63af" />	  
 
-Education Section
-<img width="1623" height="730" alt="Image" src="https://github.com/user-attachments/assets/63111ae7-aefc-4216-93ad-0ca385d026c3" />
+🚀 Getting Started (for devs)  
 
-Contact Section
-<img width="1649" height="688" alt="Image" src="https://github.com/user-attachments/assets/6bd6d39e-3da5-449b-9982-90961edf63af" />	
-
-🚀 Getting Started (for devs)
-
-Below are typical steps to run the project locally — adjust as per your setup.
+Below are typical steps to run the project locally — adjust as per your setup.  
 
 # 1. Clone the repo
 git clone https://github.com/Kshitijh/portfolio.git
@@ -115,8 +115,8 @@ Add performance optimizations (image lazy-loading, code splitting)
 
 Improve SEO (meta tags, social preview images)
 
-👤 About / Author
+👤 About / Author  
 
-Kshitij
-Full Stack developer
+Kshitij  
+Full Stack developer  
 https://www.linkedin.com/in/kshitij-hupare/ | kshitijhupare07@gmail.com
