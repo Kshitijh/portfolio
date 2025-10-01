@@ -3,11 +3,11 @@ Kshitij — Portfolio Website
 
 This is the personal portfolio website for Kshitij. It showcases projects, skills, and contact details in a clean, modern, responsive interface. The site is hosted on AWS Amplify (or similar static hosting) at main.d4pz67iin19wx.amplifyapp.com
 
-🧱 Tech Stack
-Frontend	React | Node.js
-Styling	CSS | styled-components
-Deployment	AWS Amplify (S3 + CloudFront)
-Utilities	Email | contact form | smooth scroll
+🧱 Tech Stack  
+Frontend	React | Node.js  
+Styling	CSS | styled-components  
+Deployment	AWS Amplify (S3 + CloudFront)  
+Utilities	Email | contact form | smooth scroll  
 
 📁 Project Structure
 
