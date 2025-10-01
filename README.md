@@ -13,24 +13,24 @@ Utilities	Email | contact form | smooth scroll
 
 Folder structure.
 
-├── public/
-│ ├── favicon.ico
-│ ├── index.html
-│ ├── manifest.json
-│ ├── resume.pdf
-│ └── robots.txt
-├── src/
-│ ├── Education.js
-│ ├── Experience.js
-│ ├── Footer.js
-│ ├── Hero.js
-│ ├── Navbar.js
-│ ├── Projects.js
-│ └── Skills.js
-├── README.md
-├── package.json
-├── package-lock.json
-└── AWS-amplify 
+├── public/  
+│   |── favicon.ico/  
+|   |── index.html/  
+|   |── manifest.json/  
+|   |── resume.pdf/  
+|   └── robots.txt/    
+├── src/  
+│   ├── Education.js  
+|   ├── Experience.js  
+|   ├── Footer.js  
+|   ├── Hero.js  
+|   ├── Navbar.js  
+|   ├── Projects.js  
+|   └── Skills.js  
+├── README.md  
+├── package.json  
+├── package-lock.json    
+└── AWS-amplify  
   
 🔍 Features & Highlights  
   
