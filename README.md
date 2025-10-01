@@ -14,7 +14,7 @@ Utilities	Email | contact form | smooth scroll
 Folder structure.
 
 ├── public/
-│   |── favicon.ico/
+│   |── favicon.ico/ /n
 |   |── index.html/
 |   |── manifest.json/
 |   |── resume.pdf/
