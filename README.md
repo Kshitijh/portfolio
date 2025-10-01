@@ -1,7 +1,7 @@
 Kshitij — Portfolio Website
 🎯 Project Overview
 
-This is the personal portfolio website for Kshitij. It showcases projects, skills, and contact details in a clean, modern, responsive interface. The site is hosted on AWS Amplify (or similar static hosting) at main.d4pz67iin19wx.amplifyapp.com
+This is the personal portfolio website for Kshitij. It showcases projects, skills, and contact details in a clean, modern, responsive interface. The site is hosted on AWS Amplify at: main.d4pz67iin19wx.amplifyapp.com
 
 🧱 Tech Stack  
 Frontend	React | Node.js  
