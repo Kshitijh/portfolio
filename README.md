@@ -13,7 +13,8 @@ Utilities	Email | contact form | smooth scroll
 
 Folder structure.
 
-├── public/  
+<img width="1211" height="639" alt="Image" src="https://github.com/user-attachments/assets/3e6c369a-8048-4e0c-b790-532847497684" />
+<!-- ├── public/  
 │   |── favicon.ico/  
 |   |── index.html/  
 |   |── manifest.json/  
@@ -30,7 +31,7 @@ Folder structure.
 ├── README.md  
 ├── package.json  
 ├── package-lock.json    
-└── AWS-amplify  
+└── AWS-amplify   -->
   
 🔍 Features & Highlights  
   
