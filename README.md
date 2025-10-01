@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+Kshitij — Portfolio Website
+🎯 Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the personal portfolio website for Kshitij. It showcases projects, skills, and contact details in a clean, modern, responsive interface. The site is hosted on AWS Amplify (or similar static hosting) at main.d4pz67iin19wx.amplifyapp.com
 
-## Available Scripts
+🧱 Tech Stack
+Frontend	React | Node.js
+Styling	CSS | styled-components
+Deployment	AWS Amplify (S3 + CloudFront)
+Utilities	Email | contact form | smooth scroll
 
-In the project directory, you can run:
+📁 Project Structure
 
-### `npm start`
+Folder structure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+├── public/
+│   |── favicon.ico/
+|   |── index.html/
+|   |── manifest.json/
+|   |── resume.pdf/
+|   └── robots.txt/    
+├── src/
+│   ├── Education.js
+|   ├── Experience.js
+|   ├── Footer.js
+|   ├── Hero.js
+|   ├── Navbar.js
+|   ├── Projects.js
+|   └── Skills.js        
+├── README.md
+├── package.json
+├── package-lock.json
+└── AWS-amplify
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔍 Features & Highlights
 
-### `npm test`
+Responsive design — adapts to desktops, tablets, and mobile screens
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project showcase — each project can have image(s), description, tech-stack list, and link to live site or repo
 
-### `npm run build`
+About / Skills section — highlight your background, tools, languages, experiences
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contact form / links — visitors can send you messages or see your email / social links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigation & smooth scrolling — for a better UX
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Animation / interactivity — hover effects, fade-ins, etc.
 
-### `npm run eject`
+🖼️ Screenshots (examples)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Home Page
+<img width="1650" height="756" alt="Image" src="https://github.com/user-attachments/assets/79d3b8da-0a00-485b-9146-7142af0268f0" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+About Section
+<img width="1623" height="547" alt="Image" src="https://github.com/user-attachments/assets/00c7e1b1-76b6-4c3e-8063-74198a8e9e17" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Experience Section
+<img width="1627" height="517" alt="Image" src="https://github.com/user-attachments/assets/49c776b4-4619-489d-a254-317f1b4d3fc3" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Projects Section
+<img width="1622" height="488" alt="Image" src="https://github.com/user-attachments/assets/13939ea6-e3c6-49d2-bedc-ff2a82d05497" />
 
-## Learn More
+Skills Section
+<img width="1650" height="323" alt="Image" src="https://github.com/user-attachments/assets/8f1cfd2d-b545-4ce0-91a1-87956672f36c" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Education Section
+<img width="1623" height="730" alt="Image" src="https://github.com/user-attachments/assets/63111ae7-aefc-4216-93ad-0ca385d026c3" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contact Section
+<img width="1649" height="688" alt="Image" src="https://github.com/user-attachments/assets/6bd6d39e-3da5-449b-9982-90961edf63af" />	
 
-### Code Splitting
+🚀 Getting Started (for devs)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Below are typical steps to run the project locally — adjust as per your setup.
 
-### Analyzing the Bundle Size
+# 1. Clone the repo
+git clone https://github.com/Kshitijh/portfolio.git
+cd your-portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 2. Install dependencies
+npm install
 
-### Making a Progressive Web App
+# 3. Run development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 4. Build for production
+npm run build
 
-### Advanced Configuration
+# 5. Login to the AWS Console and use AWS Amplify.
+# Commands:
+amplify init
+amplify publish
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🎨 Customization & Theme
 
-### Deployment
+If you'd like to update the design:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Adjust color variables or theme files
 
-### `npm run build` fails to minify
+Add / change fonts from Google Fonts or local fonts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tweak component styles (spacing, hover states, transitions)
+
+Add new sections like blog, timeline, testimonials etc.
+
+✅ To Do / Roadmap
+
+Add more project pages or case studies
+
+Integrate a CMS (e.g. Contentful, Sanity, Netlify CMS) to make content editing easier
+
+Add dark mode toggle
+
+Add performance optimizations (image lazy-loading, code splitting)
+
+Improve SEO (meta tags, social preview images)
+
+👤 About / Author
+
+Kshitij
+Full Stack developer
+https://www.linkedin.com/in/kshitij-hupare/ | kshitijhupare07@gmail.com

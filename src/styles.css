@@ -328,12 +328,14 @@ body {
   margin-top: 12px;
 }
 
+
 .project-links a {
   font-size: 13px;
   text-decoration: none;
   padding: 8px 10px;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: 2px solid var(--muted);
+  color: var(--text)
 }
 
 /* Skills */

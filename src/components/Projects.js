@@ -5,7 +5,7 @@ const projects = [
     name: "Portfolio Website",
     desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
     tech: ["React.js", "AWS S3", "Node.js"],
-    link: "#",
+    link: "https://github.com/Kshitijh/portfolio",
   },
   {
     name: "Digital shopping trolley",
@@ -51,10 +51,7 @@ export default function Projects() {
               </div>
               <div className="project-links" style={{ marginTop: 12 }}>
                 <a href={p.link} target="_blank" rel="noreferrer">
-                  View
-                </a>
-                <a href="#" target="_blank" rel="noreferrer">
-                  Code
+                  View Project
                 </a>
               </div>
             </div>
