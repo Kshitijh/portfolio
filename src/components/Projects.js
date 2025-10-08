@@ -50,9 +50,7 @@ export default function Projects() {
                 ))}
               </div>
               <div className="project-links" style={{ marginTop: 12 }}>
-                {/* <a href={p.link} target="_blank" rel="noreferrer">
-                  View Project
-                </a> */}
+                {/* <a href={p.link} target="_blank" rel="noreferrer"> View Project </a> */}
               </div>
             </div>
           ))}
