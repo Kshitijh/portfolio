@@ -161,9 +161,8 @@ I am contacting you regarding: ${form.message}`;
             </div>
 
             <div style={{ marginTop: 18 }}>
-              <h4>Download CV</h4>
               <a className="btn btn-ghost" href="/resume.pdf" download>
-                Download
+                Download CV
               </a>
             </div>
           </aside>
